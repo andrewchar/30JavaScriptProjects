@@ -1,0 +1,39 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background: url('resource/images/hero-bg.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.keys {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.key {
+  border: 3px solid rgb(0,0,0);
+  border-radius: 3px;
+  padding: 5px;
+  margin: 0 10px;
+  min-width: 50px;
+  font-size: 35px;
+  background: rgba(0,0,0,0.6);
+  text-align: center;
+  transition: all 0.2s;
+  color: #fff;
+}
+
+span {
+  display: block;
+  text-align: center;
+  font-size: 15px;
+  color: orange;
+}
+
+.playing {
+  border: 3px solid orange;
+  transform: scale(1.1);
+}

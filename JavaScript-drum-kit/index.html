@@ -1,0 +1,31 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>JavaScript Drum-Kit</title>
+  <link rel="stylesheet" href="./style.css">
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+
+<div class="keys">
+  <div class="key" data-key="81">Q<span>CLAP</span></div>
+  <div class="key" data-key="87">W<span>HIHAT</span></div>
+  <div class="key" data-key="69">E<span>KICK</span></div>
+  <div class="key" data-key="82">R<span>SNARE</span></div>
+</div>
+
+<audio data-key="81" src="resource/sounds/clap.mp3"></audio>
+<audio data-key="87" src="resource/sounds/hi-hat.mp3"></audio>
+<audio data-key="69" src="resource/sounds/kick.mp3"></audio>
+<audio data-key="82" src="resource/sounds/snare.mp3"></audio>
+
+  <script src="./script.js"></script>
+</body>
+</html>
